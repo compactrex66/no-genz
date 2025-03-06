@@ -1,5 +1,4 @@
 chrome.tabs.onUpdated.addListener(() => {
-    console.log("lol1")
     chrome.tabs
     .query({
       currentWindow: true,
